@@ -7,7 +7,7 @@ interface HomeScreenProps{
   navigation: any;
 }
 
-export const HomeScreen = (props:  HomeScreenProps) => {
+export const HomeScreen = (props: HomeScreenProps) => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
     { key: 'feed', title: 'Feed', icon: 'home' },
